@@ -1,0 +1,12 @@
+{
+    "extends": "./tsconfig.base.json",
+    "include": [
+        "**/*",
+        "./**/*.d.ts"
+    ],
+    "exclude": [
+        "./**/*.test.ts",
+        "./**/*.test.tsx",
+        "./**/__mocks__/*"
+    ]
+}
